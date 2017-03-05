@@ -25,7 +25,7 @@ text = font.render("Hello world", True, (255,0,0)) #creates text object ready fo
 screen.blit(text, (21,200)) #blits text object to screen
 
 #puts picture on  screen
-image = pygame.image.load("/home/pi/Pictures/LOGO.png") #loads image int variable
+image = pygame.image.load("/home/pi/Pictures/LOGO.png") #loads image into variable
 Simage = pygame.transform.scale(image, (190, 97)) #scaled image down to new dimensions
 screen.blit(Simage, (21, 400)) #blits the scaled version of the image to the screen
 
